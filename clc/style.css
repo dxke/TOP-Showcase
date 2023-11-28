@@ -1,0 +1,94 @@
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 400px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.digits {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 30%;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.digits button {
+  flex-basis: 33.33%;
+}
+
+.other_buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 80px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* add style to result display */
+
+.display {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+  background-color: lightgrey;
+  border-radius: 5px; /* add rounded corners */
+  box-shadow: 0px 5px 5px grey;
+}
+
+.operators {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 80px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 70%;
+  min-height: 30px;
+}
+
+.calculator {
+  background-color: darkgrey;
+  width: 300px;
+  height: 200px;
+  margin: auto; /* center the calculator class */
+  margin-top: 100px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px black;
+  border: 5px solid darkgoldenrod;
+}
+
+.displayed_number {
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+}
+
+body {
+  background-color: darkslategrey;
+}
